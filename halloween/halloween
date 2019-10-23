@@ -2,13 +2,31 @@
 <html>
   <head>
      <meta charset="utf-8">
-    <title>Hello World</title>
+    <title>Halloween Sounds</title>
  </head>
 
- <body>
+<body>
+     <table style="background-color: black" style=background-image: url=(halloween/pumpkin.jpg)>
 
-<!--  your visible page content below -->
-Hello World!
+<h1>Halloween Sounds</h1>
+     <h2>Rainstorm</h2>
+     <h3><audio controls>
+    <source src="audio.rainStorm.ogg" type="audio/ogg">
+    <source src="audio.rainStorm.mp3" type="audio/mpeg">
+    <source src="audio.rainStorm.wav" type="audio/wav">
+     </audio></h3>
+     
+     <h2>Werewolf</h2>
+     <h3><audio controls>
+    <source src="audio.werewolf.mp3" type="audio/mpeg">
+     </audio></h3>
+     
+     <h2>Witches Cackle</h2>
+     <h3><audio control>
+    <source src="audio.witchesCackle.mp3" type="audio/mpeg"
+            </audio></h3>
+         
+     </table>
+</body>
 
- </body>
 </html>
